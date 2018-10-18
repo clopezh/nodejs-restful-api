@@ -1,2 +1,2 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://yourMongoDBURIGoesHere');
+mongoose.connect('mongodb://AlanMun:asdf@cluster0-shard-00-00-wgtnu.mongodb.net:27017,cluster0-shard-00-01-wgtnu.mongodb.net:27017,cluster0-shard-00-02-wgtnu.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true');
